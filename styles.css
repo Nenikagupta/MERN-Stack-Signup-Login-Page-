@@ -1,0 +1,92 @@
+/* global styles */
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  color:#e7e7e7;
+  background: rgb(19,19,19);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(3,155,155);
+  transition:hover 400ms;
+}
+
+a:hover{
+  font-size: 25px;
+  color:rgba(189,72,0);
+}
+
+.box{
+  margin:100px 0 100px 420px;
+  width: 420px;
+  height: 600px;
+  background-color: rgba(8,5,10,0.5);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 3px 3px #cecece;
+  border-radius: 25px;
+}
+
+.buttons{
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button{
+  width: 210px;
+  height: 80px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 1px 1px 1px 1px #cecece;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  border-radius: 0.7rem;
+}
+
+
+.main-box{
+  padding: 50px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+input{
+  height: 35px;
+  width: 330px;
+  text-align: center;
+  box-shadow: inset -5px -7px 10px 3px #ccc;
+  border-radius: 1.2rem;
+}
+
+input:focus{
+  box-shadow: inset 5px 7px 10px 3px #ccc;
+}
+
+.btn{
+  margin-left: 70px;
+  background: rgba(3,155,155);
+  border-radius: 2rem;
+  font-size: 1rem;
+  color: #fafafa;
+  padding: 1rem 2.5rem;
+  transition: background-color 650ms;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.btn:hover{
+  color:#fafafa;
+  background-color: rgba(189,72,0);
+}
